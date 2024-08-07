@@ -1,0 +1,81 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Habits Website</title>
+    <link rel="stylesheet" href="tracker.css">
+    <script src="tracker.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="health.html">Home</a></li>
+                <li><a href="#AboutUs1">About</a></li>
+                <li><a href="tel:+201127707484">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="TitleSec">
+            <h1>The Tracking System</h1>
+            <p>Learn how to maintain a healthy lifestyle with our expert tips and resources.</p>
+            
+        </section>
+        <div class="row">
+        <section id="sleep">
+            <h1>Sleeping Early challenge</h1>
+            <p id="textScore">Your Score : </p>
+            <p id="textGoal">Your Goal : </p>
+            <label for="prog">Your current progress:</label>
+            <progress id="prog" value=0 max=100></progress>
+            
+                <p>Set New Goal :&nbsp;<input id="target" type="number" value=1 >&nbsp;Day/s&nbsp;&nbsp;</p>
+                <button id="setgoal-btn" onclick="SetGoal()">Set Goal</button>
+                <button id="reset-btn" onclick="reset()">Reset Score</button>
+                <button id="done-btn" onclick="done()">Done Challenge for Today</button>
+
+        </section>
+        <section id="gym">
+            <h1>Gym challenge</h1>
+            <p id="textScore2">Your Score : </p>
+            <p id="textGoal2">Your Goal : </p>
+            <label for="prog2">Your current progress:</label>
+            <progress id="prog2" value=0 max=100></progress>
+            
+                <p>Set New Goal :&nbsp;<input id="target2" type="number" value=1 >&nbsp;Day/s&nbsp;&nbsp;</p>
+                <button id="setgoal-btn2" onclick="SetGoal2()">Set Goal</button>
+                <button id="reset-btn2" onclick="reset2()">Reset Score</button>
+                <button id="done-btn2" onclick="done2()">Done Challenge for Today</button>
+
+
+
+        </section>
+    </div>
+            <div class="container">
+                <h1 id="we">Other Products</h1>
+                <div class="c">
+    
+                    
+                    <div class="card-wrapper two">
+                        <div class="card">
+                            <div class="front" id="div2">
+                                <img id="image" src="Images/tasks_5545400.png">
+                                <p>Task manager app</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+    </main>
+    <footer>
+        <p>&copy; 2024 Healthy Habits Website</p>
+    </footer>
+</body>
+</html>
