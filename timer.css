@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+    
+    background-color: rgb(47, 43, 43);
+    background-image: url("Images/TimerBG.jpg");
+    background-size: cover;
+   
+    
+    
+}
+header {
+    background-color:#201E43;
+    color: #fff;
+    padding: 1em;
+    margin: 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+    padding: 10px;
+}
+
+nav a {
+    padding: 0.6em;
+    background-color:#6b7a98;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: black;
+    background-color: antiquewhite;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+section{
+    padding: 2em;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.18);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    border-radius: 300px;
+    color: aliceblue;
+    border: solid 1px white;
+    background-image: url("Images/TimerBG.jpg");
+    background-size: cover;
+    
+    
+
+}
+
+#Set{
+    font-size: 40px;
+}
+input{
+    margin-bottom: 20px;
+    background-color: rgba(250, 235, 215, 0.224);
+    color: white;
+
+}
+.timeInp{
+    height: 25px;
+    width: 120px;
+    border-radius: 10px;
+    
+    border: solid 1px white;
+}
+#countdown{
+    font-size: 40px;
+    color: rgb(102, 135, 192);
+}
+#btn{
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    transition: transform 0.4s;
+}
+#btn:hover{
+    background-color: rgba(5, 118, 255, 0.913);
+    transform: scale(1.2);
+}
