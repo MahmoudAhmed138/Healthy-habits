@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("Images/LoginBG2.jpg");
+    
+    background-size: cover;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+section{
+    width: 400px;
+    height: 400px;
+    padding: 1em;
+    margin-bottom: 20px;
+    background-color: rgba(42, 97, 97, 0.2);
+   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+   border-color: white;
+   border-width: 0.7px;
+   border-style: solid;
+   display: flex;
+   flex-direction: column;
+   
+   align-items: center;
+   color: white;
+}
+h1{
+    font-size: 40px;
+}
+input{
+    
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+margin-bottom: 30px;
+
+}
+
+.textbox{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0.5em;
+    border-radius: 20px;
+    width: 250px;
+    color: white;
+}
+.submit-btn{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 270px;
+    height: 40px;
+    border-radius: 30px;
+    border: 0cm;
+}

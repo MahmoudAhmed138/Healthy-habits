@@ -1,0 +1,93 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Habits Website</title>
+    <link rel="stylesheet" href="Assessment.css">
+    <script src="Assessment.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="health.html">Home</a></li>
+                <li><a href="tel:+201127707484">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Title">
+            
+            <h1>The Health habits Assessment!</h1>
+            <p>Please answer the following questions so that we can help you</p>
+            
+        </section>
+        <div class="questions">
+            <form action="Final.html">
+                
+                <h1>Question 1</h1>
+                <p>Do you often find yourself procrastinating important tasks?</p>
+                <select id="Q1">
+                    
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <h1>Question 2</h1>
+                <p>How often do you check your phone during work or social interactions?</p>
+                <p><strong>Note</strong>:One indicates a few times and five indicates Too much times</p>
+                <input id="Q2" type="number" min=1 max=5 value=1>
+                <h1>Question 3</h1>
+                <p>Do you often find yourself neglecting exercise or physical activity?</p>
+                <select id="Q3">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <h1>Question 4</h1>
+                <p>How frequently do you stay up late, even when you know you need to wake up early?</p>
+                <input id="Q4" type="number" min=1 max=5 value=1>
+                <h1>Question 5</h1>
+                <p>Do you have a habit of skipping meals or eating unhealthy food?</p>
+                <select id="Q5">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <h1>Question 6</h1>
+                <p>How often do you find yourself complaining or focusing on the negative aspects of situations?</p>
+                <input id="Q6" type="number" min=1 max=5 value=1>
+                <h1>Question 7</h1>
+                <p>Do you have a habit of being late or missing deadlines?</p>
+                <select id="Q7">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <h1>Question 8</h1>
+                <p>Do you often find yourself turning to unhealthy habits, such as excessive screen time or junk food, when stressed?</p>
+                <select id="Q8">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <h1>Question 9</h1>
+                <p>Do you struggle with maintaining a consistent routine or sticking to your goals?</p>
+                <select id="Q9">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <h1>Question 10</h1>
+                <p>How often do you find yourself being overly critical of yourself or others?</p>
+                <input id="Q10" type="number" min=1 max=5 value=1> <br>
+                <a href="Final.html"><button  class="submit" type="submit" onclick="getInput()" >Submit</button></a>
+
+
+
+                
+            </form>
+        </div>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Healthy Habits Website</p>
+    </footer>
+</body>
+</html>
